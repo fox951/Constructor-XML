@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Version>
   <ProductName>Конструктор XML</ProductName>
-  <SHA1>1.4.0</SHA1>
+  <SHA1>1.4.1</SHA1>
+  <ChangeLog>1. Добавлено описание изменений при обновлении
+  2. Для формата ECOD: Исправлен вывод некоторых колонок в ТЧ
+  </ChangeLog>
 </Version>
