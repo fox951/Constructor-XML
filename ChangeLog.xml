@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ChangeLog ProductName="Конструктор XML">
+    <Info Version="1.4.6" Date="20210810">
+        <Critical>False</Critical>
+        <Description>*P* Добавлен вывод списка всех изменений 
+        </Description>
+    </Info>
+    <Info Version="1.4.5" Date="20210810">
+        <Critical>True</Critical>
+        <Description>*P* Добавлено описание изменений при обновлении. *P* Исправлен вывод некоторых
+            колонок в ТЧ - необходимо обновить описание полей в настройках из схемы. *P* Введено
+            понятие "Критичное обновление" - если пришло такое обновление (были внесены изменения,
+            которые сильно влияют на функциональность), конструктор заблокируется. 
+        </Description>
+    </Info>
+    <Info Version="1.4.1" Date="20210804">
+        <Critical>False</Critical>
+        <Description>*P* Интеграция функционала обработки "Настройка FDB"
+        </Description>
+    </Info>
+    <Info Version="1.4.0" Date="20210709">
+        <Critical>True</Critical>
+        <Description>*P* Добавлен механизм проверки обновления
+            *P* Исправления для документа PRODUCTCATALOG
+            *P* Исправления для документа RETANN
+            *P* Оптимизация и повышение скорости работы
+        </Description>
+    </Info>
+    <Info Version="1.3.0" Date="20210525">
+        <Critical>True</Critical>
+        <Description>*P* Исправление ошибок, интерфейсные доработки
+            *P* Добавлен вывод инфо-блоков
+        </Description>
+    </Info>
+    <Info Version="1.2.0" Date="20210520">
+        <Critical>True</Critical>
+        <Description>*P* Исправление ошибок
+            *P* Добавлены спецификации
+        </Description>
+    </Info>
+    <Info Version="1.1.0" Date="20210515">
+        <Critical>True</Critical>
+        <Description>*P* Исправление ошибок
+            *P* Добавлены шаблоны
+            *P* Добавлены настройки</Description>
+    </Info>
+    <Info Version="1.0.0" Date="20210401">
+        <Critical>True</Critical>
+        <Description>*P* Релиз</Description>
+    </Info>
+</ChangeLog>
