@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Version>
   <ProductName>Конструктор XML</ProductName>
-  <SHA1>1.4.2</SHA1>
+  <SHA1>1.4.5</SHA1>
   <Critical>True</Critical>
   <ChangeLog>*P* Добавлено описание изменений при обновлении.
     *P* Исправлен вывод некоторых колонок в ТЧ - необходимо обновить описание полей в настройках из схемы.
