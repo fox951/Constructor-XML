@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ChangeLog ProductName="Конструктор XML">
+	<Info Version="1.4.8" Date="20210821">
+		<Critical>True</Critical>
+		<Description>
+			<T> Добавлено: Механизм добавления/удаления колонок для табличных частей.</T>
+		</Description>
+	</Info>
 	<Info Version="1.4.7" Date="20210817">
 		<Critical>True</Critical>
 		<Description>
