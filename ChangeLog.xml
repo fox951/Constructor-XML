@@ -23,19 +23,19 @@
     <Info Version="1.4.5" Date="20210810">
         <Critical>True</Critical>
         <Description>
-            *P* Добавлено: описание изменений при обновлении. *P* Исправлен вывод некоторых
-            колонок в ТЧ - необходимо обновить описание полей в настройках из схемы. *P* Введено
-            понятие "Критичное обновление" - если пришло такое обновление (были внесены изменения,
+            *P* Добавлено: описание изменений при обновлении. 
+            *P* Исправлен вывод некоторых колонок в ТЧ - необходимо обновить описание полей в настройках из схемы. 
+            *P* Введено понятие "Критичное обновление" - если пришло такое обновление (были внесены изменения,
             которые сильно влияют на функциональность), конструктор заблокируется. 
         </Description>
     </Info>
-    <Info Version="1.4.1" Date="20210804">
+    <Info Version="1.4.1" Date="20210810">
         <Critical>False</Critical>
         <Description>
             *P* Добавлено: Функционала обработки "Настройка FDB"
         </Description>
     </Info>
-    <Info Version="1.4.0" Date="20210709">
+    <Info Version="1.4.0" Date="20210804">
         <Critical>True</Critical>
         <Description>
             *P* Добавлено: Механизм проверки обновления
@@ -44,21 +44,21 @@
             *P* Исправление: Оптимизация и повышение скорости работы
         </Description>
     </Info>
-    <Info Version="1.3.0" Date="20210525">
+    <Info Version="1.3.0" Date="20210709">
         <Critical>True</Critical>
         <Description>
             *P* Исправление ошибок, интерфейсные доработки
             *P* Добавлено: Вывод инфо-блоков
         </Description>
     </Info>
-    <Info Version="1.2.0" Date="20210520">
+    <Info Version="1.2.0" Date="20210603">
         <Critical>True</Critical>
         <Description>
             *P* Исправление ошибок
             *P* Добавлено: Функционал спецификаций
         </Description>
     </Info>
-    <Info Version="1.1.0" Date="20210515">
+    <Info Version="1.1.0" Date="20210528">
         <Critical>True</Critical>
         <Description>
             *P* Исправление ошибок
@@ -66,7 +66,7 @@
             *P* Добавлены настройки
          </Description>
     </Info>
-    <Info Version="1.0.0" Date="20210401">
+    <Info Version="1.0.0" Date="20210402">
         <Critical>True</Critical>
         <Description>
             *P* Релиз
