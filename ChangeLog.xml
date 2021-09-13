@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ChangeLog ProductName="Конструктор XML">
+    <Info Version="1.5.0" Date="20210930">
+     <Critical>True</Critical>
+     <Description>
+         <T>Исправление: Исправление ошибок</T>       
+     </Description>
+    </Info>
     <Info Version="1.4.9" Date="20210828">
         <Critical>True</Critical>
         <Description>
