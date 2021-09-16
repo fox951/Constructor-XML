@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ChangeLog ProductName="Загрузка обновлений 1С">
+    <Info Version="1.0.2.0" Date="20210917">
+        <Critical>True</Critical>
+        <Description>
+            <T> Добавлено: Механизм контроля изменений. </T>
+        </Description>
+    </Info>
+    <Info Version="1.0.1.0" Date="20210916">
+        <Critical>True</Critical>
+        <Description>
+            <T> Исправление: Добавлен функционал удаления запрещенных символов в пути к каталогу.
+                Исправление: Исправлены слэши в пути каталога. </T>
+            <T> Исправление: Распределение и запуск потоков для серверного варианта теперь работает корректно. </T>
+        </Description>
+    </Info>
+    <Info Version="1.0.0.0" Date="20210910">
+        <Critical>True</Critical>
+        <Description>
+            <T> Релиз.</T>
+        </Description>
+    </Info>
+</ChangeLog>
