@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ChangeLog ProductName="Парсер 1С">
+    <Info Version="1.0.0.0" Date="20210910">
+        <Critical>True</Critical>
+        <Description>
+            <T> Релиз.</T>
+        </Description>
+    </Info>
+</ChangeLog>
