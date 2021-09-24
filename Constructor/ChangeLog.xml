@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ChangeLog ProductName="Конструктор XML">
+    <Info Version="1.5.1" Date="20210924">
+        <Critical>True</Critical>
+        <Description>
+            <T> Добавлено: Подключена работа с маркировкой товаров. </T>       
+        </Description>
+    </Info>
     <Info Version="1.5.0" Date="20210916">
      <Critical>True</Critical>
      <Description>
