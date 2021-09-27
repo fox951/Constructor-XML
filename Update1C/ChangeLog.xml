@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ChangeLog ProductName="Загрузка обновлений 1С">
+    <Info Version="1.0.5.1" Date="20210928">
+        <Critical>False</Critical>
+        <Description>
+            <Description>
+                <T> Добавлено: Механизм обмена с Dropbox *** - Добавлены шаблоны кода, настройки подключения. Пока что, сервис по неизвестной причине не работает. </T>
+            </Description>
+        </Description>
+    </Info>
     <Info Version="1.0.5.0" Date="20210925">
         <Critical>True</Critical>
         <Description>
