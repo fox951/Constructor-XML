@@ -2,5 +2,5 @@
 <Update>
   <ProductName>Загрузка обновлений 1С</ProductName>
   <Version>1.0.5.1</Version>
-  <Critical>False</Critical>
+  <Critical>True</Critical>
 </Update>
