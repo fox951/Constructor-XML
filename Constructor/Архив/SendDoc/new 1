@@ -1,0 +1,76 @@
+<Document-ProductCatalogue>
+	<ProductCatalogue-Header>
+		<ProductCatalogueNumber>2603211636</ProductCatalogueNumber>
+		<ProductCatalogueDate>2021-03-26</ProductCatalogueDate>
+		<DocumentFunctionCode>9</DocumentFunctionCode>
+		<MessageType>PC</MessageType>
+		<CatalogueCurrency>RUB</CatalogueCurrency>
+	</ProductCatalogue-Header>
+	<ProductCatalogue-Parties>
+		<Buyer>
+			<ILN>2000000029900</ILN>
+			<Name>ЗАО "Кактус"</Name>
+		</Buyer>
+		<Seller>
+			<ILN>2000000022239</ILN>
+			<Name>Закрытое акционерное общество "Торговый дом Комплексный"</Name>
+		</Seller>
+	</ProductCatalogue-Parties>
+	<ProductCatalogue-Lines>
+		<Line>
+			<Line-Item>
+				<LineNumber>1</LineNumber>
+				<EAN>1100120011002</EAN>
+				<ProductGroup>Хлебобулочные изделия</ProductGroup>
+				<ItemDescription>Ржаной хлеб</ItemDescription>
+				<CountryOfOrigin>Брозилея</CountryOfOrigin>
+				<BrandName>Ржаной хлеб</BrandName>
+				<SubbrandName>Ржаной хлеб</SubbrandName>
+				<Weight>78</Weight>
+				<Volume>78845</Volume>
+				<Length>1</Length>
+				<Width>322</Width>
+				<Height>57</Height>
+				<OnHandQuantity>1</OnHandQuantity>
+				<UnitOfMeasure>PCE</UnitOfMeasure>
+				<UnitGrossPrice>300.00</UnitGrossPrice>
+				<UnitGrossPriceCurrency>RUB</UnitGrossPriceCurrency>
+				<SuggestedPrice>345</SuggestedPrice>
+				<SuggestedPriceCurrency>RUB</SuggestedPriceCurrency>
+				<TaxRate>0</TaxRate>
+				<PackDetails>
+					<UnitPacksize>30.000</UnitPacksize>
+				</PackDetails>
+			</Line-Item>
+		</Line>
+		<Line>
+			<Line-Item>
+				<LineNumber>2</LineNumber>
+				<EAN>1100120011002</EAN>
+				<ProductGroup>Хлебобулочные изделия</ProductGroup>
+				<ItemDescription>Ржаной хлеб</ItemDescription>
+				<CountryOfOrigin>Брозилея</CountryOfOrigin>
+				<BrandName>Ржаной хлеб</BrandName>
+				<SubbrandName>Ржаной хлеб</SubbrandName>
+				<Weight>78</Weight>
+				<Volume>78845</Volume>
+				<Length>1</Length>
+				<Width>322</Width>
+				<Height>57</Height>
+				<OnHandQuantity>1</OnHandQuantity>
+				<UnitOfMeasure>PCE</UnitOfMeasure>
+				<UnitGrossPrice>300.00</UnitGrossPrice>
+				<UnitGrossPriceCurrency>RUB</UnitGrossPriceCurrency>
+				<SuggestedPrice>345</SuggestedPrice>
+				<SuggestedPriceCurrency>RUB</SuggestedPriceCurrency>
+				<TaxRate>0</TaxRate>
+				<PackDetails>
+					<UnitPacksize>30.000</UnitPacksize>
+				</PackDetails>
+			</Line-Item>
+		</Line>
+	</ProductCatalogue-Lines>
+	<ProductCatalogue-Summary>
+		<TotalLines>2</TotalLines>
+	</ProductCatalogue-Summary>
+</Document-ProductCatalogue>
