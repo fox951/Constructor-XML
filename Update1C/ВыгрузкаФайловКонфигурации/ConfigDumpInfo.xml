@@ -89,22 +89,22 @@
 		<Metadata name="CommonCommand.АвтообновлениеКонфигурации.CommandModule" id="e90c59c6-6cfe-4a5d-b4b0-3f0f7f740cb4.2" configVersion="5912b5bae0ece94eb829b8cfa0ed5c2b00000000"/>
 		<Metadata name="CommonCommand.ИзмененияВКонфигурации" id="5bc67a0a-308a-423a-8964-2831bff108b3" configVersion="f84d4eeb9ecbff4c881c11a1c0fc571800000000"/>
 		<Metadata name="CommonCommand.ИзмененияВКонфигурации.CommandModule" id="5bc67a0a-308a-423a-8964-2831bff108b3.2" configVersion="03b70438e17a474f843ec0d1ded466d100000000"/>
-		<Metadata name="CommonForm.АвтообновлениеКонфигурации" id="476a5da0-f515-4c8d-9dd0-355e104a66a4" configVersion="025862917efa2e4bb5d5327e6278fd7100000000"/>
-		<Metadata name="CommonForm.АвтообновлениеКонфигурации.Form" id="476a5da0-f515-4c8d-9dd0-355e104a66a4.0" configVersion="13ea4a51dd35934e8d6a37ab34d296a500000000"/>
+		<Metadata name="CommonForm.АвтообновлениеКонфигурации" id="476a5da0-f515-4c8d-9dd0-355e104a66a4" configVersion="417a75677addfd4b92174d56858b668e00000000"/>
+		<Metadata name="CommonForm.АвтообновлениеКонфигурации.Form" id="476a5da0-f515-4c8d-9dd0-355e104a66a4.0" configVersion="a75151d3541e4d448c007cbd4fc9e64900000000"/>
 		<Metadata name="CommonForm.СписокИзменений" id="76060b57-e9e0-462c-b3cf-702f1b30f98d" configVersion="58a9aa16ce43f540a3f9a9dc74c171e500000000"/>
 		<Metadata name="CommonForm.СписокИзменений.Form" id="76060b57-e9e0-462c-b3cf-702f1b30f98d.0" configVersion="9da096762847164cb1639585cf5f80c900000000"/>
-		<Metadata name="CommonModule.ОМ_Клиент" id="44412078-a59e-4867-94a5-3888169ee7fa" configVersion="19d0177fe28df14984eb610b512462ae00000000"/>
-		<Metadata name="CommonModule.ОМ_Клиент.Module" id="44412078-a59e-4867-94a5-3888169ee7fa.0" configVersion="707493d90d36884e99b8509ee8e67e1e00000000"/>
-		<Metadata name="CommonModule.ОМ_КлиентСервер" id="454cc389-9d32-4340-a824-f7a865b47c15" configVersion="5d4b1a2862089d47885ed8f0ccbf736c00000000"/>
-		<Metadata name="CommonModule.ОМ_КлиентСервер.Module" id="454cc389-9d32-4340-a824-f7a865b47c15.0" configVersion="3f61f44602b2504db74c6ab2898eb35400000000"/>
+		<Metadata name="CommonModule.ОМ_Клиент" id="44412078-a59e-4867-94a5-3888169ee7fa" configVersion="0da1854b6006fe4fbe0595997e4cc87100000000"/>
+		<Metadata name="CommonModule.ОМ_Клиент.Module" id="44412078-a59e-4867-94a5-3888169ee7fa.0" configVersion="bcc35d303d7df34a938403186174f25600000000"/>
+		<Metadata name="CommonModule.ОМ_КлиентСервер" id="454cc389-9d32-4340-a824-f7a865b47c15" configVersion="da60f54c7f1c164aa89851a74daf00a400000000"/>
+		<Metadata name="CommonModule.ОМ_КлиентСервер.Module" id="454cc389-9d32-4340-a824-f7a865b47c15.0" configVersion="a9a53f94bb51e1469244aaae61f34db800000000"/>
 		<Metadata name="CommonModule.ОМ_ОбменВеб" id="b10cf08c-7b51-4c40-b32d-7f47fc318fc6" configVersion="b9ef79802aabd445aa09d6d908d4d37700000000"/>
 		<Metadata name="CommonModule.ОМ_ОбменВеб.Module" id="b10cf08c-7b51-4c40-b32d-7f47fc318fc6.0" configVersion="2bb7f8568093d44ca12577437a368b5a00000000"/>
 		<Metadata name="CommonModule.ОМ_ОбменВебСлужебный" id="a0a7e147-5822-424e-a46e-f7b508c79883" configVersion="f795256b9cce3941ab2c491cba2a562c00000000"/>
 		<Metadata name="CommonModule.ОМ_ОбменВебСлужебный.Module" id="a0a7e147-5822-424e-a46e-f7b508c79883.0" configVersion="babd6fd48f2bb547b07620e0da241ff300000000"/>
 		<Metadata name="CommonModule.ОМ_Обновления1С" id="33f9f713-e7b1-479c-99e3-b12a7f8b4d79" configVersion="2b125a89babed749b39dc167062a56ce00000000"/>
 		<Metadata name="CommonModule.ОМ_Обновления1С.Module" id="33f9f713-e7b1-479c-99e3-b12a7f8b4d79.0" configVersion="1a6615912df3cc4690c705dc50d8cb2700000000"/>
-		<Metadata name="CommonModule.ОМ_Парсинг" id="8e17ae18-d9af-473d-bbbd-bce47df5ed6f" configVersion="8f2e450c2614c74e9df2251995170cbb00000000"/>
-		<Metadata name="CommonModule.ОМ_Парсинг.Module" id="8e17ae18-d9af-473d-bbbd-bce47df5ed6f.0" configVersion="3847bb6071d6114bbfd12dfee24b547800000000"/>
+		<Metadata name="CommonModule.ОМ_Парсинг" id="8e17ae18-d9af-473d-bbbd-bce47df5ed6f" configVersion="e34540109c6c074a8fec738c582fcd9e00000000"/>
+		<Metadata name="CommonModule.ОМ_Парсинг.Module" id="8e17ae18-d9af-473d-bbbd-bce47df5ed6f.0" configVersion="b7a914a40917af4c879a5142d0ecbe6a00000000"/>
 		<Metadata name="CommonModule.ОМ_ПеренаправленияФорм" id="785e8c20-b97c-4c21-bcda-170c104284b9" configVersion="b127b35254cd794d8302db7220b247e800000000"/>
 		<Metadata name="CommonModule.ОМ_ПеренаправленияФорм.Module" id="785e8c20-b97c-4c21-bcda-170c104284b9.0" configVersion="6fdb886fff6ade4aadd359ad8a991e2500000000"/>
 		<Metadata name="CommonModule.ОМ_Прокси" id="1d36b122-8770-488e-8941-29e5a14dbdd4" configVersion="880462daea062e4bae690f003920bc9e00000000"/>
@@ -994,7 +994,7 @@
 		<Metadata name="CommonPicture.ЯндексКарты.Picture" id="ea07cd11-418c-4e4f-be9f-c160ee8a64e8.0" configVersion="aa79e70ece648447a7975f13eb652f3100000000"/>
 		<Metadata name="CommonTemplate.ИзмененияВВерсии" id="b66190cc-0c08-47a3-854c-a213de770451" configVersion="128af35801474545b601f7b9f2d6b66000000000"/>
 		<Metadata name="CommonTemplate.ИзмененияВВерсии.Template" id="b66190cc-0c08-47a3-854c-a213de770451.0" configVersion="cb0328f7fd07e0498392f40255a05e5f00000000"/>
-		<Metadata name="Configuration.ЗагрузкаОбновлений1С" id="38b7d34d-13a3-4d01-a7de-c6c335f77a67" configVersion="90db3dc6b4ed2d4f9e5280632e5cf21300000000"/>
+		<Metadata name="Configuration.ЗагрузкаОбновлений1С" id="38b7d34d-13a3-4d01-a7de-c6c335f77a67" configVersion="8486bc82e633c24f929bd5ecf88e442f00000000"/>
 		<Metadata name="Configuration.ЗагрузкаОбновлений1С.HomePageWorkArea" id="cece9753-2b60-4f51-8383-9f6167390761.8" configVersion="616466b37c07a544bf4beee9315ee1ef00000000"/>
 		<Metadata name="Configuration.ЗагрузкаОбновлений1С.Logo" id="cece9753-2b60-4f51-8383-9f6167390761.1" configVersion="c6a65d880988d440a893e5cead3c07c400000000"/>
 		<Metadata name="Configuration.ЗагрузкаОбновлений1С.ManagedApplicationModule" id="cece9753-2b60-4f51-8383-9f6167390761.6" configVersion="53f6c1757af91f45bedb65410393322200000000"/>
