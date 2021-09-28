@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.11">
+	<Item id="c0048adf-1b70-4092-b48f-c29be705684c">
+		<Name>ДропБокс</Name>
+		<Code/>
+		<Description>Dropbox</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d82517c4-a8cd-4806-97ed-ea12b7df432d">
+		<Name>ГуглДиск</Name>
+		<Code/>
+		<Description>Google Диск</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9c42b509-d842-4b23-9be9-5f1b855c8953">
+		<Name>Локальный</Name>
+		<Code/>
+		<Description>Локальный</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b07cffa0-3d57-4384-aede-9be5078a4382">
+		<Name>ЯндексДиск</Name>
+		<Code/>
+		<Description>Яндекс.Диск</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

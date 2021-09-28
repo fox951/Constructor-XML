@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="22">
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="23"/>
+			<ChildItems>
+				<UsualGroup name="Группа2" id="24">
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="25"/>
+					<ChildItems>
+						<InputField name="Код" id="1">
+							<DataPath>Объект.Code</DataPath>
+							<Visible>false</Visible>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+							<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+						</InputField>
+						<InputField name="Владелец" id="7">
+							<DataPath>Объект.Owner</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ВладелецКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="ВладелецРасширеннаяПодсказка" id="9"/>
+						</InputField>
+						<InputField name="Наименование" id="4">
+							<DataPath>Объект.Description</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+							<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+						</InputField>
+						<InputField name="ДатаВыхода" id="10">
+							<DataPath>Объект.ДатаВыхода</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДатаВыходаКонтекстноеМеню" id="11"/>
+							<ExtendedTooltip name="ДатаВыходаРасширеннаяПодсказка" id="12"/>
+						</InputField>
+						<InputField name="ОбновлениеВерсии" id="13">
+							<DataPath>Объект.ОбновлениеВерсии</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ОбновлениеВерсииКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="ОбновлениеВерсииРасширеннаяПодсказка" id="15"/>
+						</InputField>
+						<LabelField name="ГиперСсылка" id="16">
+							<DataPath>Объект.ГиперСсылка</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<Hiperlink>true</Hiperlink>
+							<ContextMenu name="ГиперСсылкаКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="ГиперСсылкаРасширеннаяПодсказка" id="18"/>
+							<Events>
+								<Event name="Click">ГиперСсылкаНажатие</Event>
+							</Events>
+						</LabelField>
+						<InputField name="Комментарий" id="19">
+							<DataPath>Объект.Комментарий</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="КомментарийКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="21"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа3" id="26">
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="27"/>
+					<ChildItems>
+						<Table name="ГиперСсылки" id="28">
+							<ReadOnly>true</ReadOnly>
+							<HeightInTableRows>5</HeightInTableRows>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ГиперСсылки</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ГиперСсылкиКонтекстноеМеню" id="29"/>
+							<AutoCommandBar name="ГиперСсылкиКоманднаяПанель" id="30">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ГиперСсылкиРасширеннаяПодсказка" id="31"/>
+							<SearchStringAddition name="ГиперСсылкиСтрокаПоиска" id="32">
+								<AdditionSource>
+									<Item>ГиперСсылки</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ГиперСсылкиСтрокаПоискаКонтекстноеМеню" id="33"/>
+								<ExtendedTooltip name="ГиперСсылкиСтрокаПоискаРасширеннаяПодсказка" id="34"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ГиперСсылкиСостояниеПросмотра" id="35">
+								<AdditionSource>
+									<Item>ГиперСсылки</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ГиперСсылкиСостояниеПросмотраКонтекстноеМеню" id="36"/>
+								<ExtendedTooltip name="ГиперСсылкиСостояниеПросмотраРасширеннаяПодсказка" id="37"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ГиперСсылкиУправлениеПоиском" id="38">
+								<AdditionSource>
+									<Item>ГиперСсылки</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ГиперСсылкиУправлениеПоискомКонтекстноеМеню" id="39"/>
+								<ExtendedTooltip name="ГиперСсылкиУправлениеПоискомРасширеннаяПодсказка" id="40"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="Selection">ГиперСсылкиВыбор</Event>
+							</Events>
+							<ChildItems>
+								<LabelField name="ГиперСсылкиНомерСтроки" id="41">
+									<DataPath>Объект.ГиперСсылки.LineNumber</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>2</Width>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="ГиперСсылкиНомерСтрокиКонтекстноеМеню" id="42"/>
+									<ExtendedTooltip name="ГиперСсылкиНомерСтрокиРасширеннаяПодсказка" id="43"/>
+								</LabelField>
+								<InputField name="ГиперСсылкиОбъект" id="44">
+									<DataPath>Объект.ГиперСсылки.Объект</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>20</Width>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="ГиперСсылкиОбъектКонтекстноеМеню" id="45"/>
+									<ExtendedTooltip name="ГиперСсылкиОбъектРасширеннаяПодсказка" id="46"/>
+								</InputField>
+								<ColumnGroup name="ГиперСсылкиГруппа1" id="50">
+									<ExtendedTooltip name="ГиперСсылкиГруппа1РасширеннаяПодсказка" id="51"/>
+									<ChildItems>
+										<LabelField name="ГиперСсылкиГиперссылка" id="47">
+											<DataPath>Объект.ГиперСсылки.Гиперссылка</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<Hiperlink>true</Hiperlink>
+											<ContextMenu name="ГиперСсылкиГиперссылкаКонтекстноеМеню" id="48"/>
+											<ExtendedTooltip name="ГиперСсылкиГиперссылкаРасширеннаяПодсказка" id="49"/>
+										</LabelField>
+										<InputField name="ГиперСсылкиГиперссылкаИтог" id="52">
+											<DataPath>Объект.ГиперСсылки.ГиперссылкаИтог</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<EditMode>EnterOnInput</EditMode>
+											<ClearButton>false</ClearButton>
+											<TextEdit>false</TextEdit>
+											<ContextMenu name="ГиперСсылкиГиперссылкаИтогКонтекстноеМеню" id="53"/>
+											<ExtendedTooltip name="ГиперСсылкиГиперссылкаИтогРасширеннаяПодсказка" id="54"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Релизы</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

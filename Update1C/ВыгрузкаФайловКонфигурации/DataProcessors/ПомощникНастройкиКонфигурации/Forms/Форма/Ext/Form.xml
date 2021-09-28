@@ -1,0 +1,963 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<WindowOpeningMode>LockWholeInterface</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="OnClose">ПриЗакрытии</Event>
+	</Events>
+	<ChildItems>
+		<LabelDecoration name="ТекущийШаг" id="1">
+			<Font ref="style:NormalTextFont" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Введение</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ТекущийШагКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ТекущийШагРасширеннаяПодсказка" id="3"/>
+		</LabelDecoration>
+		<Pages name="Страницы" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<PagesRepresentation>None</PagesRepresentation>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="5"/>
+			<ChildItems>
+				<Page name="Страница_Шаг0" id="20">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница шаг0</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="Страница_Шаг0РасширеннаяПодсказка" id="21"/>
+					<ChildItems>
+						<LabelDecoration name="Декорация1" id="22">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Конфигурация "Загрузка обновлений 1С"
+
+Помощник поможет выполнить следующее:
+
+1. Настроить подключение к ИТС
+2. Загрузить дерево разделов
+3. Загрузить конфигурации
+4. Загрузить релизы
+5. Настроить каталоги выгрузки
+6. Сделать первую загрузку файлов</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Декорация1КонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="24"/>
+						</LabelDecoration>
+					</ChildItems>
+				</Page>
+				<Page name="Страница_Шаг1" id="6">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница шаг1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="Страница_Шаг1РасширеннаяПодсказка" id="7"/>
+					<ChildItems>
+						<InputField name="КонстантыНаборОбновления1С_Логин" id="8">
+							<DataPath>КонстантыНабор.Обновления1С_Логин</DataPath>
+							<AutoMarkIncomplete>true</AutoMarkIncomplete>
+							<ContextMenu name="КонстантыНаборОбновления1С_ЛогинКонтекстноеМеню" id="9"/>
+							<ExtendedTooltip name="КонстантыНаборОбновления1С_ЛогинРасширеннаяПодсказка" id="10"/>
+						</InputField>
+						<InputField name="КонстантыНаборОбновления1С_Пароль" id="11">
+							<DataPath>КонстантыНабор.Обновления1С_Пароль</DataPath>
+							<PasswordMode>true</PasswordMode>
+							<AutoMarkIncomplete>true</AutoMarkIncomplete>
+							<ContextMenu name="КонстантыНаборОбновления1С_ПарольКонтекстноеМеню" id="12"/>
+							<ExtendedTooltip name="КонстантыНаборОбновления1С_ПарольРасширеннаяПодсказка" id="13"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+				<Page name="Страница_Шаг2" id="25">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница шаг1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="Страница_Шаг2РасширеннаяПодсказка" id="26"/>
+					<ChildItems>
+						<UsualGroup name="Шаг2_П1" id="47">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Шаг2 п1</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Шаг2 п1</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Шаг2_П1РасширеннаяПодсказка" id="48"/>
+							<ChildItems>
+								<LabelDecoration name="Декорация2" id="49">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>1. Заполните дерево разделов, нажав на эту кнопку</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Декорация2КонтекстноеМеню" id="50"/>
+									<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="51"/>
+								</LabelDecoration>
+								<Button name="ЗагрузитьДеревоРазделов" id="45">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ЗагрузитьДеревоРазделов</CommandName>
+									<BackColor>web:HoneyDew</BackColor>
+									<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+									<ExtendedTooltip name="ЗагрузитьДеревоРазделовРасширеннаяПодсказка" id="46"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Шаг2_П2" id="52">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Шаг2 п2</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Шаг2 п2</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Шаг2_П2РасширеннаяПодсказка" id="53"/>
+							<ChildItems>
+								<LabelDecoration name="ГиперСсылка_ДеревоРазделов" id="54">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<HorizontalStretch>true</HorizontalStretch>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>2. Откройте справочник "Дерево разделов" и укажите какие разделы загружать</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="ГиперСсылка_ДеревоРазделовКонтекстноеМеню" id="55"/>
+									<ExtendedTooltip name="ГиперСсылка_ДеревоРазделовРасширеннаяПодсказка" id="56"/>
+									<Events>
+										<Event name="Click">Общая_ПереходВСправочник</Event>
+									</Events>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="Страница_Шаг3" id="27">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница шаг1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="Страница_Шаг3РасширеннаяПодсказка" id="28"/>
+					<ChildItems>
+						<UsualGroup name="Шаг3_П1" id="62">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Шаг3 п1</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Шаг3 п1</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Шаг3_П1РасширеннаяПодсказка" id="63"/>
+							<ChildItems>
+								<LabelDecoration name="Декорация4" id="57">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>1. Заполните список конфигураций, нажав на эту кнопку</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Декорация4КонтекстноеМеню" id="58"/>
+									<ExtendedTooltip name="Декорация4РасширеннаяПодсказка" id="59"/>
+								</LabelDecoration>
+								<Button name="ЗагрузитьКонфигурации" id="60">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ЗагрузитьКонфигурации</CommandName>
+									<BackColor>web:HoneyDew</BackColor>
+									<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+									<ExtendedTooltip name="ЗагрузитьКонфигурацииРасширеннаяПодсказка" id="61"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Шаг3_П2" id="64">
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Шаг2 п2</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Шаг3_П2РасширеннаяПодсказка" id="65"/>
+							<ChildItems>
+								<LabelDecoration name="ГиперСсылка_Конфигурации" id="66">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<HorizontalStretch>true</HorizontalStretch>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>2. Откройте справочник "Конфигурации" и укажите какие конфигурации загружать</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="ГиперСсылка_КонфигурацииКонтекстноеМеню" id="67"/>
+									<ExtendedTooltip name="ГиперСсылка_КонфигурацииРасширеннаяПодсказка" id="68"/>
+									<Events>
+										<Event name="Click">Общая_ПереходВСправочник</Event>
+									</Events>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="Страница_Шаг4" id="35">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница шаг1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="Страница_Шаг4РасширеннаяПодсказка" id="36"/>
+					<ChildItems>
+						<UsualGroup name="Шаг4_П1" id="76">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Шаг4 п1</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Шаг2 п1</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Шаг4_П1РасширеннаяПодсказка" id="77"/>
+							<ChildItems>
+								<LabelDecoration name="Декорация5" id="78">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>1. Заполните параметры отбора релизов</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Декорация5КонтекстноеМеню" id="79"/>
+									<ExtendedTooltip name="Декорация5РасширеннаяПодсказка" id="80"/>
+								</LabelDecoration>
+								<UsualGroup name="Группа2" id="81">
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="82"/>
+									<ChildItems>
+										<InputField name="КонстантыНаборОбновления1С_ЗагружатьРелизыОт" id="86">
+											<DataPath>КонстантыНабор.Обновления1С_ЗагружатьРелизыОт</DataPath>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>С какой даты релиза загружать обновление</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ToolTipRepresentation>Button</ToolTipRepresentation>
+											<ContextMenu name="КонстантыНаборОбновления1С_ЗагружатьРелизыОтКонтекстноеМеню" id="87"/>
+											<ExtendedTooltip name="КонстантыНаборОбновления1С_ЗагружатьРелизыОтРасширеннаяПодсказка" id="88"/>
+											<Events>
+												<Event name="OnChange">ПриИзмененииКонстантНаКлиенте</Event>
+											</Events>
+										</InputField>
+										<CheckBoxField name="КонстантыНаборОбновления1С_АвтоОтборДат" id="83">
+											<DataPath>КонстантыНабор.Обновления1С_АвтоОтборДат</DataPath>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Если установить, дата релиза будет вычисляться автоматически - с начала предыдущего месяца.</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ToolTipRepresentation>Button</ToolTipRepresentation>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="КонстантыНаборОбновления1С_АвтоОтборДатКонтекстноеМеню" id="84"/>
+											<ExtendedTooltip name="КонстантыНаборОбновления1С_АвтоОтборДатРасширеннаяПодсказка" id="85"/>
+											<Events>
+												<Event name="OnChange">ПриИзмененииКонстантНаКлиенте</Event>
+											</Events>
+										</CheckBoxField>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Шаг4_П2" id="89">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Шаг4 п2</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Шаг4 п2</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>StrongSeparation</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Шаг4_П2РасширеннаяПодсказка" id="90"/>
+							<ChildItems>
+								<LabelDecoration name="Декорация6" id="91">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>2. Необходимо выбрать объекты загрузки</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Декорация6КонтекстноеМеню" id="92"/>
+									<ExtendedTooltip name="Декорация6РасширеннаяПодсказка" id="93"/>
+								</LabelDecoration>
+								<Table name="ОбъектыЗагрузки" id="94">
+									<Representation>List</Representation>
+									<Header>false</Header>
+									<HorizontalLines>false</HorizontalLines>
+									<VerticalLines>false</VerticalLines>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<DataPath>ОбъектыЗагрузки</DataPath>
+									<RowPictureDataPath>ОбъектыЗагрузки.Picture</RowPictureDataPath>
+									<ContextMenu name="ОбъектыЗагрузкиКонтекстноеМеню" id="95"/>
+									<AutoCommandBar name="ОбъектыЗагрузкиКоманднаяПанель" id="96">
+										<Autofill>false</Autofill>
+									</AutoCommandBar>
+									<ExtendedTooltip name="ОбъектыЗагрузкиРасширеннаяПодсказка" id="97"/>
+									<SearchStringAddition name="ОбъектыЗагрузкиСтрокаПоиска" id="98">
+										<AdditionSource>
+											<Item>ОбъектыЗагрузки</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ОбъектыЗагрузкиСтрокаПоискаКонтекстноеМеню" id="99"/>
+										<ExtendedTooltip name="ОбъектыЗагрузкиСтрокаПоискаРасширеннаяПодсказка" id="100"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="ОбъектыЗагрузкиСостояниеПросмотра" id="101">
+										<AdditionSource>
+											<Item>ОбъектыЗагрузки</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ОбъектыЗагрузкиСостояниеПросмотраКонтекстноеМеню" id="102"/>
+										<ExtendedTooltip name="ОбъектыЗагрузкиСостояниеПросмотраРасширеннаяПодсказка" id="103"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="ОбъектыЗагрузкиУправлениеПоиском" id="104">
+										<AdditionSource>
+											<Item>ОбъектыЗагрузки</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="ОбъектыЗагрузкиУправлениеПоискомКонтекстноеМеню" id="105"/>
+										<ExtendedTooltip name="ОбъектыЗагрузкиУправлениеПоискомРасширеннаяПодсказка" id="106"/>
+									</SearchControlAddition>
+									<Events>
+										<Event name="OnChange">ПриИзмененииКонстантНаКлиенте</Event>
+									</Events>
+									<ChildItems>
+										<CheckBoxField name="ОбъектыЗагрузкиПометка" id="107">
+											<DataPath>ОбъектыЗагрузки.Check</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ОбъектыЗагрузкиПометкаКонтекстноеМеню" id="108"/>
+											<ExtendedTooltip name="ОбъектыЗагрузкиПометкаРасширеннаяПодсказка" id="109"/>
+										</CheckBoxField>
+										<InputField name="ОбъектыЗагрузкиПредставление" id="110">
+											<DataPath>ОбъектыЗагрузки.Presentation</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ОбъектыЗагрузкиПредставлениеКонтекстноеМеню" id="111"/>
+											<ExtendedTooltip name="ОбъектыЗагрузкиПредставлениеРасширеннаяПодсказка" id="112"/>
+										</InputField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Шаг4_П3" id="69">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Шаг4 п3</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Шаг2 п1</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Шаг4_П3РасширеннаяПодсказка" id="70"/>
+							<ChildItems>
+								<LabelDecoration name="Декорация3" id="71">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>3. Заполните дерево релизов, нажав на эту кнопку</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Декорация3КонтекстноеМеню" id="72"/>
+									<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="73"/>
+								</LabelDecoration>
+								<Button name="ЗаполнитьРелизы" id="74">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ЗаполнитьРелизы</CommandName>
+									<BackColor>web:HoneyDew</BackColor>
+									<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+									<ExtendedTooltip name="ЗаполнитьРелизыРасширеннаяПодсказка" id="75"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="Страница_Шаг5" id="43">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница шаг1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="Страница_Шаг5РасширеннаяПодсказка" id="44"/>
+					<ChildItems>
+						<LabelDecoration name="ГиперСсылка_КаталогЗагрузки" id="113">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>1. Откройте справочник "Каталоги загрузки" и заполните настройки каталогов.</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ГиперСсылка_КаталогЗагрузкиКонтекстноеМеню" id="114"/>
+							<ExtendedTooltip name="ГиперСсылка_КаталогЗагрузкиРасширеннаяПодсказка" id="115"/>
+							<Events>
+								<Event name="Click">Общая_ПереходВСправочник</Event>
+							</Events>
+						</LabelDecoration>
+						<UsualGroup name="Группа3" id="122">
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="123"/>
+							<ChildItems>
+								<LabelDecoration name="Декорация7" id="116">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>2. Укажите выбранный вами каталог загрузки</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Декорация7КонтекстноеМеню" id="117"/>
+									<ExtendedTooltip name="Декорация7РасширеннаяПодсказка" id="118"/>
+								</LabelDecoration>
+								<InputField name="КонстантыНаборОбновления1С_КаталогХранения" id="119">
+									<DataPath>КонстантыНабор.Обновления1С_КаталогХранения</DataPath>
+									<ContextMenu name="КонстантыНаборОбновления1С_КаталогХраненияКонтекстноеМеню" id="120"/>
+									<ExtendedTooltip name="КонстантыНаборОбновления1С_КаталогХраненияРасширеннаяПодсказка" id="121"/>
+									<Events>
+										<Event name="OnChange">ПриИзмененииКонстантНаКлиенте</Event>
+									</Events>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="Страница_Шаг6" id="124">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница шаг6</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница шаг6</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="Страница_Шаг6РасширеннаяПодсказка" id="125"/>
+					<ChildItems>
+						<LabelDecoration name="ОбщееОписание" id="126">
+							<MaxWidth>40</MaxWidth>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Первая загрузка файлов:
+
+Логика загрузки обновлений 1С следующая:</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ОбщееОписаниеКонтекстноеМеню" id="127"/>
+							<ExtendedTooltip name="ОбщееОписаниеРасширеннаяПодсказка" id="128"/>
+						</LabelDecoration>
+						<UsualGroup name="ОписаниеСервернойБазы" id="134">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Для серверной базы</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Описание серверной базы</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>StrongSeparation</Representation>
+							<ExtendedTooltip name="ОписаниеСервернойБазыРасширеннаяПодсказка" id="135"/>
+							<ChildItems>
+								<LabelDecoration name="Декорация8" id="139">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>1. Загрузка будет выполняться в несколько потоков (1 поток = 1 конфигурация для обхода). 
+
+Максимальное число одновременно выполняемых потоков = 9.</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Декорация8КонтекстноеМеню" id="140"/>
+									<ExtendedTooltip name="Декорация8РасширеннаяПодсказка" id="141"/>
+								</LabelDecoration>
+								<InputField name="КонстантыНаборФоновыеЗадания_КоличествоПотоков" id="136">
+									<DataPath>КонстантыНабор.ФоновыеЗадания_КоличествоПотоков</DataPath>
+									<ContextMenu name="КонстантыНаборФоновыеЗадания_КоличествоПотоковКонтекстноеМеню" id="137"/>
+									<ExtendedTooltip name="КонстантыНаборФоновыеЗадания_КоличествоПотоковРасширеннаяПодсказка" id="138"/>
+									<Events>
+										<Event name="OnChange">ПриИзмененииКонстантНаКлиенте</Event>
+									</Events>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ОписаниеФайловойБазы" id="142">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Для файловой базы</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Описание серверной базы</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>StrongSeparation</Representation>
+							<ExtendedTooltip name="ОписаниеФайловойБазыРасширеннаяПодсказка" id="143"/>
+							<ChildItems>
+								<LabelDecoration name="Декорация10" id="144">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>2. Загрузка будет выполняться последовательно (обход по очереди по всем конфигурациям, их релизам и по объектам загрузки)</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Декорация10КонтекстноеМеню" id="145"/>
+									<ExtendedTooltip name="Декорация10РасширеннаяПодсказка" id="146"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+						<LabelDecoration name="ОбщееОписание2" id="147">
+							<Visible>false</Visible>
+							<MaxWidth>40</MaxWidth>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Для обоих вариантов имеется возможность настроить автоматический запуск по расписанию.</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ОбщееОписание2КонтекстноеМеню" id="148"/>
+							<ExtendedTooltip name="ОбщееОписание2РасширеннаяПодсказка" id="149"/>
+						</LabelDecoration>
+						<UsualGroup name="Группа7" id="150">
+							<Visible>false</Visible>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Регламентная загрузка</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Vertical</Group>
+							<Representation>StrongSeparation</Representation>
+							<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="151"/>
+							<ChildItems>
+								<CheckBoxField name="КонстантыНаборОбновления1С_АвтоЗагрузка" id="163">
+									<DataPath>КонстантыНабор.Обновления1С_АвтоЗагрузка</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="КонстантыНаборОбновления1С_АвтоЗагрузкаКонтекстноеМеню" id="164"/>
+									<ExtendedTooltip name="КонстантыНаборОбновления1С_АвтоЗагрузкаРасширеннаяПодсказка" id="165"/>
+									<Events>
+										<Event name="OnChange">КонстантыНаборОбновления1С_АвтоЗагрузкаПриИзменении</Event>
+									</Events>
+								</CheckBoxField>
+								<CheckBoxField name="НаборКонстантАвтоЗагрузка" id="152">
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Автоматическое скачивание по расписанию (Для серверных баз)</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="НаборКонстантАвтоЗагрузкаКонтекстноеМеню" id="153"/>
+									<ExtendedTooltip name="НаборКонстантАвтоЗагрузкаРасширеннаяПодсказка" id="154"/>
+									<Events>
+										<Event name="OnChange">НаборКонстантАвтоЗагрузкаПриИзменении</Event>
+									</Events>
+								</CheckBoxField>
+								<UsualGroup name="Группа_НастройкаРасписания" id="155">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа настройка расписания</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа настройка расписания</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>AlwaysHorizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа_НастройкаРасписанияРасширеннаяПодсказка" id="156"/>
+									<ChildItems>
+										<LabelDecoration name="Расписание" id="157">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Расписание</v8:content>
+												</v8:item>
+											</Title>
+											<Hyperlink>true</Hyperlink>
+											<ContextMenu name="РасписаниеКонтекстноеМеню" id="158"/>
+											<ExtendedTooltip name="РасписаниеРасширеннаяПодсказка" id="159"/>
+											<Events>
+												<Event name="Click">РасписаниеНажатие</Event>
+											</Events>
+										</LabelDecoration>
+										<LabelDecoration name="ПредставлениеРасписания" id="160">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Представление расписания</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="ПредставлениеРасписанияКонтекстноеМеню" id="161"/>
+											<ExtendedTooltip name="ПредставлениеРасписанияРасширеннаяПодсказка" id="162"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="Страница_Шаг7" id="129">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница шаг6</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница шаг6</v8:content>
+						</v8:item>
+					</ToolTip>
+					<VerticalAlign>Center</VerticalAlign>
+					<ExtendedTooltip name="Страница_Шаг7РасширеннаяПодсказка" id="130"/>
+					<ChildItems>
+						<UsualGroup name="Группа4" id="171">
+							<Group>AlwaysHorizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="172"/>
+							<ChildItems>
+								<LabelDecoration name="Декорация9" id="131">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Настройка завершена. 
+
+Загрузка обновлений 1С будет доступна после перезапуска. </v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Декорация9КонтекстноеМеню" id="132"/>
+									<ExtendedTooltip name="Декорация9РасширеннаяПодсказка" id="133"/>
+								</LabelDecoration>
+								<Button name="Перезапустить" id="166">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.Перезапустить</CommandName>
+									<BackColor>style:ActivityColor</BackColor>
+									<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+									<ExtendedTooltip name="ПерезапуститьРасширеннаяПодсказка" id="167"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<PictureDecoration name="Декорация11" id="168">
+							<HorizontalStretch>false</HorizontalStretch>
+							<VerticalStretch>false</VerticalStretch>
+							<Zoomable>true</Zoomable>
+							<ImageScale>65</ImageScale>
+							<Picture>
+								<xr:Abs>Picture.png</xr:Abs>
+								<xr:LoadTransparent>false</xr:LoadTransparent>
+							</Picture>
+							<Border width="1">
+								<v8ui:style xsi:type="v8ui:ControlBorderType">Single</v8ui:style>
+							</Border>
+							<ContextMenu name="Декорация11КонтекстноеМеню" id="169"/>
+							<ExtendedTooltip name="Декорация11РасширеннаяПодсказка" id="170"/>
+						</PictureDecoration>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+		<UsualGroup name="Группа1" id="18">
+			<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="19"/>
+			<ChildItems>
+				<Button name="Команда_Назад" id="16">
+					<Type>UsualButton</Type>
+					<Enabled>false</Enabled>
+					<CommandName>Form.Command.Команда_Назад</CommandName>
+					<ExtendedTooltip name="Команда_НазадРасширеннаяПодсказка" id="17"/>
+				</Button>
+				<Button name="Команда_Далее" id="14">
+					<Type>UsualButton</Type>
+					<Enabled>false</Enabled>
+					<CommandName>Form.Command.Команда_Далее</CommandName>
+					<BackColor>style:ActivityColor</BackColor>
+					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<ExtendedTooltip name="Команда_ДалееРасширеннаяПодсказка" id="15"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ПомощникНастройкиКонфигурации</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="КонстантыНабор" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Константы набор</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:ConstantsSet</v8:Type>
+			</Type>
+			<UseAlways>
+				<Field>КонстантыНабор.Обновления1С_АвтоЗагрузка</Field>
+				<Field>КонстантыНабор.Обновления1С_АвтоОтборДат</Field>
+				<Field>КонстантыНабор.Обновления1С_ЗагружатьРелизыОт</Field>
+				<Field>КонстантыНабор.Обновления1С_КаталогХранения</Field>
+				<Field>КонстантыНабор.Обновления1С_Логин</Field>
+				<Field>КонстантыНабор.Обновления1С_Пароль</Field>
+				<Field>КонстантыНабор.ФоновыеЗадания_КоличествоПотоков</Field>
+			</UseAlways>
+		</Attribute>
+		<Attribute name="ОбъектыЗагрузки" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объекты загрузки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЭтоСервернаяБаза" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Это серверная база</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Расписание" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расписание</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+		<Attribute name="ВсеНастроено" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Все настроено</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЭтоПерезапуск" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Это перезапуск</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Команда_Далее" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Далее</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда далее</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Команда_Далее</Action>
+		</Command>
+		<Command name="Команда_Назад" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Назад</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда назад</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Команда_Назад</Action>
+		</Command>
+		<Command name="ЗагрузитьДеревоРазделов" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить дерево разделов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить дерево разделов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьДеревоРазделов</Action>
+		</Command>
+		<Command name="ЗагрузитьКонфигурации" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить конфигурации</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить конфигурации</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьКонфигурации</Action>
+		</Command>
+		<Command name="ЗаполнитьРелизы" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить релизы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить релизы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьРелизы</Action>
+		</Command>
+		<Command name="Перезапустить" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перезапустить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перезапустить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Перезапустить</Action>
+		</Command>
+	</Commands>
+</Form>

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="10c01925-a75f-402c-9283-08b3a28d3f3b">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.Обновления1С_ОбъектыДляЗагрузки" category="Ref">
+				<xr:TypeId>da66d1a9-1412-4979-b457-a2e4a6a4d616</xr:TypeId>
+				<xr:ValueId>13174f95-dd2c-48bb-a0c1-3095d265a080</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.Обновления1С_ОбъектыДляЗагрузки" category="Manager">
+				<xr:TypeId>08a01f43-eb31-43d2-a461-a85c643f353c</xr:TypeId>
+				<xr:ValueId>6a2fba7b-50ee-46c4-9b17-7812d8ff8b71</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.Обновления1С_ОбъектыДляЗагрузки" category="List">
+				<xr:TypeId>a87649c2-a3f3-46d9-90f1-d974de6a7d38</xr:TypeId>
+				<xr:ValueId>92ee616b-615e-497b-a8bd-fa3c60396fec</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Обновления1С_ОбъектыДляЗагрузки</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объекты для загрузки</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="31ad528f-cc27-4026-8461-c72dedc9e60e">
+				<Properties>
+					<Name>ДистрибутивОбновления</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дистрибутив обновления</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a1e6d9a7-62f4-481a-91f0-221bac331c36">
+				<Properties>
+					<Name>НовоеВВерсии</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Новое в версии</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="89b78df3-3b49-482b-a890-e59172378d31">
+				<Properties>
+					<Name>ПереходСБазовой</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дистрибутив обновления для перехода с базовой версии</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="23338a9b-b9bd-4a8b-b2e5-6b8a6370ec67">
+				<Properties>
+					<Name>ПереходСРедакции2</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дистрибутив обновления для перехода с редакции 2.0</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

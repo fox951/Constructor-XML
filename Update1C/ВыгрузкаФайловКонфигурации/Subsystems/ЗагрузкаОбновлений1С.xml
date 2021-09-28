@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Subsystem uuid="9c953918-c446-4a49-a13e-3feba6dfbf03">
+		<Properties>
+			<Name>ЗагрузкаОбновлений1С</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузка обновлений 1С</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<Explanation/>
+			<Picture>
+				<xr:Ref>CommonPicture.Подсистема_Обновление1С</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОМ_Клиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОМ_КлиентСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОМ_Парсинг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОМ_ПеренаправленияФорм</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОМ_Прокси</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОМ_РегламентныеОперации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОМ_Сервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОМ_Служебный</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОМ_Соединения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.Прокси_КлючHideMe</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Прокси</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СтраныМира</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЖурналСобытий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Конфигурации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Релизы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ГруппыКонфигураций</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.УправлениеЗагрузками</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПросмотрСправочников</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОМ_Обновления1С</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.СтартРегламентныхПроцессов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.СписокИзменений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.Конфигурация_ПоказыватьИзменения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КаталогиЗагрузки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ОбменСОблачнымХранилищем</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Подсистема_Обновление1С</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.Конфигурация_НастройкаОткрывалась</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПомощникНастройкиКонфигурации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.АвтообновлениеКонфигурации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.АвтообновлениеКонфигурации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ИзмененияВКонфигурации</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

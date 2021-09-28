@@ -1,0 +1,18 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="yandex.ru/dev/disk/api">
+	<objectType name="token">
+		<property name="code" type="xs:string"/>
+		<property name="client_id" type="xs:string"/>
+		<property name="client_secret" type="xs:string"/>
+		<property name="grant_type" type="xs:string"/>
+	</objectType>
+	<objectType name="upload">
+		<property name="path" type="xs:string"/>
+		<property name="overwrite" type="xs:string"/>
+	</objectType>
+	<objectType name="resources">
+		<property name="path" type="xs:string"/>
+	</objectType>
+	<objectType name="download">
+		<property name="path" type="xs:string"/>
+	</objectType>
+</package>

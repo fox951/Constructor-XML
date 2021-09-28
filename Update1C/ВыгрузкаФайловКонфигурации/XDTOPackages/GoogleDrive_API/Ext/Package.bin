@@ -1,0 +1,24 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="developers.google.com/drive/api/v3/reference">
+	<objectType name="МетаданныеФайла">
+		<property name="id" type="xs:string"/>
+		<property name="name" type="xs:string"/>
+		<property name="mimeType" type="xs:string"/>
+		<property xmlns:d3p1="developers.google.com/drive/api/v3/reference" name="parents" type="d3p1:Родитель" lowerBound="0" upperBound="-1" nillable="true"/>
+		<property name="description" type="xs:string"/>
+	</objectType>
+	<objectType name="Родитель">
+		<property name="id" type="xs:string"/>
+	</objectType>
+	<objectType name="token">
+		<property name="client_id" type="xs:string"/>
+		<property name="redirect_uri" type="xs:string"/>
+		<property name="client_secret" type="xs:string"/>
+		<property name="grant_type" type="xs:string"/>
+		<property name="code" type="xs:string"/>
+		<property name="access_type" type="xs:string"/>
+		<property name="prompt" type="xs:string"/>
+	</objectType>
+	<objectType name="ПараметрыОтбора">
+		<property name="q" type="xs:string" lowerBound="0" upperBound="-1" nillable="true"/>
+	</objectType>
+</package>
