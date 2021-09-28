@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ChangeLog ProductName="Конструктор XML">
+    <Info Version="1.5.2" Date="20210929">
+        <Critical>True</Critical>
+        <Description>
+            <T> Добавлено: Механизм автоотбновлений конструктора. Доступно на вкладке 'О программе'</T>       
+        </Description>
+    </Info>
     <Info Version="1.5.1" Date="20210924">
         <Critical>True</Critical>
         <Description>
